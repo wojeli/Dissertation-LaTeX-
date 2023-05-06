@@ -1,0 +1,32 @@
+\chapter{Methods}
+
+\section{Ethics}
+The ethical approval form was submitted and approved before the start of the data collection. 
+Data was collected ethically, and all of the sequences used were submitted voluntarily and anonymously to the Los Alamos database to prevent the identification of the patients. 
+All of the information used in this project was referenced to avoid plagiarism.
+
+\section{Accessing and formatting of the sequences}
+The first part of this project required access to the HIV sequences from the public database (Los Alamos). 
+The analysis included 151 sequences from 11 Eastern European countries from the region of the former USSR (Estonia, Belarus, Russia, Ukraine), former Yugoslavia (Croatia, Serbia, Slovenia), and other Easter European countries (Poland, Hungary, Slovakia, Romania). The sequences used in this project were uploaded to the database between 2010 and 2015.
+All of the other countries which are considered to be Eastern European that were not on the list were excluded as there were no sequences available from those countries within the selected time range. 
+The genomic region selected for the analysis was protease, which is a part of \textit{pol} gene. 
+All of the sequences were renamed into a specific format (B.COUNTRY.YEAR.NUMBER OF SEQUENCE FROM THAT YEAR). Original titles of the sequences alongside their appropriate code names were listed in the tables within the Appendix section (see Appendix, Tables A.1-A.11).
+Additionally, as the analysis includes a large number of sequences, each of the countries included in the project was allocated a color code for convenience.
+
+\vfill
+
+\section{Bioinformatic Analysis}
+
+\subsubsection{ClustalOmega}
+After the sequences were acquired from the Los Alamos database, Multiple Sequence Alignment was conducted.
+Initially, analysis was performed at the online website using the ClustalOmega alignment method. 
+The website also produces a phylogenetic tree which can be downloaded and exported to the Figtree program. 
+The branches of the tree were colored accordingly with the color code allocated for the specific country.\\
+\subsubsection{MUSCLE}
+Another analysis was conducted using the program MEGA11 which offered another approach at Multiple Sequence Alignment (MUSCLE). 
+The reason for this choice was that, according to Pevsner, this is one of the fastest methods which also allows the alignment of large sequence numbers.\cite{pevsner_2015_bioinformatics}
+Once sequence alignment was completed, another analysis was performed to create a phylogenetic tree. 
+\subsubsection{Bootstrapping}
+The maximum Likelihood test was also performed in the program MEGA11 using the “Bootstrap method” which was set for 50 bootstrap replications.
+Additionally, substitution was based on the Tamura-Nei model. 
+The outcome of the analysis produced a phylogenic tree which was exported and color-coded using the Figtree program.
